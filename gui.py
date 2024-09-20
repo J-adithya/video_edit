@@ -45,7 +45,7 @@ with gr.Blocks() as demo:
     # Load video directly in the preview window
     video_input = gr.File(label="Upload Video for Editing")  # Removed type="file"
     
-    # Start and end times for 3 cuts
+    
     with gr.Row():
         start1 = gr.Number(label="Start time of cut 1 (seconds)", value=0)
         end1 = gr.Number(label="End time of cut 1 (seconds)", value=0)
